@@ -6,13 +6,14 @@ html, body {
 	height: 100%;
 	color: white;
 	text-align: center;
+	text-transform: uppercase;
 
 	background-image: url(images/iceland.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
-#title{
-	margin: 0 auto;
-	vertical-align: middle;
+.proj-img{
+	width: 100%;
+	height: 100%;
 }
