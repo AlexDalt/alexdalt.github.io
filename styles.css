@@ -34,6 +34,10 @@ a:hover{
 	background-color: black;
 	border-style: none;
 }
+.btn-primary:hover, .btn-primary:focus{
+	background-color: grey;
+	border-style: none;
+}
 /*.card-img-top{
 	height: 240px;
 	background-color: white;
