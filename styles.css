@@ -28,6 +28,7 @@ a.some-link:hover{
 	text-align: center;
 	text-decoration: none;
 	color: white;
+	padding-bottom: 30px;
 }
 .fa:hover{
 	color: white;
@@ -41,11 +42,9 @@ a.some-link:hover{
 	background-color: grey;
 	border-style: none;
 }
-/*.card-img-top{
-	height: 240px;
-	background-color: white;
-	object-fit: cover;
-}*/
+.card{
+	height: 626px;
+}
 #about{
 	margin-top: 30px;
 }
