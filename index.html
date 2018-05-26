@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 	<link href="https://fonts.googleapis.com/css?family=Anton|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styles.css">
 </head>
 
@@ -22,38 +23,134 @@
 
 			<div class="container-flexible">
 				<div class="row" id="nav-links">
-					<div class="col-3" align="center">
-						<a href="#about">About</a>
+					<div class="col-4" align="center">
+						<a class="some-link" href="#about">About</a>
 					</div>
-					<div class="col-3" align="center">
-						<a href="#projects">Projects</a>
+					<div class="col-4" align="center">
+						<a class="some-link" href="#projects">Projects</a>
 					</div>
-					<div class="col-3" align="center">
-						<a href="#music">Music</a>
+					<div class="col-4" align="center">
+						<a class="some-link" href="#music">Music</a>
 					</div>
-					<div class="col-3" align="center">
-						<a href="#contact">Contact</a>
+				</div>
+				<div class="row heading">
+					<div class="col-6 border-top border-left border-right" align="center">
+						Personal
+					</div>
+					<div class="col-6 border-top border-left border-right" align="center">
+						Band
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<a href="https://www.instagram.com/idontfeelsobad/" class="fa fa-instagram" target="_blank"></a>
+					</div>
+					<div class="col">
+						<a href="https://www.linkedin.com/in/alex-dalton-769736a5/" class="fa fa-linkedin" target="_blank"></a>
+					</div>
+					<div class="col">
+						<a href="https://github.com/AlexDalt" class="fa fa-github" target="_blank"></a>
+					</div>
+					<div class="col">
+						<a href="https://www.facebook.com/ThePylons/" class="fa fa-facebook" target="_blank"></a>
+					</div>
+					<div class="col">
+						<a href="https://open.spotify.com/artist/77Pi3DQgoKHXsvkOi8QGoM" class="fa fa-spotify" target="_blank"></a>
+					</div>
+					<div class="col">
+						<a href="https://www.youtube.com/user/ThePylonsBand" class="fa fa-youtube" target="_blank"></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<h3 id="about">About</h3>
-	<p>I'll write about me here.</p>
-
-	<h3 id="projects">Projects</h3>
-
 	<div class="container">
+
+		<h3 id="about">About</h3>
+		<p>I'm a computer scientist primerily interested in cyber security, abstract cryptography,
+		machine learning and hardware concious software development.
+		I am a soon-to-be MEng Computer Science graduate from The University of
+		Bristol and am eagerly (anxiously) awaiting the results of 4 years of long days,
+		short nights, and gradually improving time management.</p>
+
+		<p>When I'm not programming I tend to be spending time with my band,
+		<a href="http://thepylons.com/" target="_blank">The Pylons</a>, with
+		whom I've played guitar for over 6 years.<p>
+
+		<h3 id="projects">Projects</h3>
+		<p><a href="https://github.com/AlexDalt/" target="_blank">GitHub</a> contains an entry for most of these projects (and more from my time at uni). The
+		documentation ranges from poor to non-existant.</p>
+
 		<div class="row">
 			<div class="col-sm-6 col-lg-4">
 				<div class="card mb-3">
-					<img class="card-img-top" src="images/taddypole.png" alt="TaddyPole Screenshot">
+					<img class="card-img-top" src="images/evolve.png" alt="Evolutionary Screenshot">
 					<div class="card-body">
-						<h5 class="card-title">TaddyPole</h5>
-						<h6 class="card-subtitle text-muted">A Game About Tadpoles</h6>
-						<p class="card-text">This group project did some stuff</p>
-						<a href="#" class="btn btn-primary">Github</a>
+						<h5 class="card-title">Evolved Binary Arithmetic Circuits and Dynamic Problems</h5>
+						<h6 class="card-subtitle text-muted">MEng Dissertation</h6>
+						<p class="card-text">During the final year of my degree I explored
+						using genetic algorithms to design simple binary
+						addition/subtraction circuits on a simulated FPGA, attempting to discern the
+						value of such a
+						scheme to act as a robust fault recovery mechanism.</p>
+						<a href="https://github.com/AlexDalt/masters-dissertation/blob/master/dissertation.pdf" class="btn btn-primary" target="_blank">PDF</a>
+						<a href="https://github.com/AlexDalt/MalleableHardwareAdder" class="btn btn-primary" target="_blank">GitHub</a>
+					</div>
+					<div class="card-footer text-muted">
+						C
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-4">
+				<div class="card mb-3">
+					<img class="card-img-top" src="images/contextual.png" alt="Contextual Screenshot">
+					<div class="card-body">
+						<h5 class="card-title">Con<b>text</b>ual</h5>
+						<h6 class="card-subtitle text-muted">Cloud-based Content-Tagged Image Archiving</h6>
+						<p class="card-text">An image storing webapp built on Google's cloud platform.
+						Using the Google
+						machine learning APIs to perform automated image anaylsis and tagging,
+						in order to provide
+						the ability to search through images by their content.</p>
+						<a href="https://contextual.winteriscompiling.uk/" class="btn btn-primary" target="_blank">Use Contextual</a>
+					</div>
+					<div class="card-footer text-muted">
+						HTML, CSS, JavaScript, Python
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-4">
+				<div class="card mb-3">
+					<img class="card-img-top" src="images/processor.png" alt="Processor Simulator Screenshot">
+					<div class="card-body">
+						<h5 class="card-title">Bespoke Superscalar Processor Simulator</h5>
+						<p class="card-text">Designed and simulted a superscalar processor complete
+						with a 5 stage 4-way superscalar execution pipeline, a unified
+						reservation station, reorder buffer, out of order execution, register renaming,
+						and configurable static and dynamic branch prediction.</p>
+						<a href="https://github.com/AlexDalt/ProcessorSim" class="btn btn-primary" target="_blank">GitHub</a>
+					</div>
+					<div class="card-footer text-muted">
+						C++
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-4">
+				<div class="card mb-3">
+					<img class="card-img-top" src="images/lockdown.png" alt="TaddyPole Screenshot">
+					<div class="card-body">
+						<h5 class="card-title">LockDown</h5>
+						<h6 class="card-subtitle text-muted">An Asymmetric VR Multiplayer Game</h6>
+						<p class="card-text">Developed as part of an agile team on the Unity game
+						engine, LockDown, pits a wily infiltrator (in a VR headset) against
+						a team of security "professionals". The infiltrator is atempting to evade the
+						security team and steal as much corporate loot as possible, all the while searching for
+						their ultimate prize. Upon "recovering" the final item the infiltrator has
+						to escape with his life (and booty) intact.</p>
+					</div>
+					<div class="card-footer text-muted">
+						C#
 					</div>
 				</div>
 			</div>
@@ -62,52 +159,40 @@
 					<img class="card-img-top" src="images/taddypole.png" alt="TaddyPole Screenshot">
 					<div class="card-body">
 						<h5 class="card-title">TaddyPole</h5>
-						<h6 class="card-subtitle text-muted">A Game About Tadpoles</h6>
-						<p class="card-text">This group project did some stuff</p>
-						<a href="#" class="btn btn-primary">Github</a>
+						<h6 class="card-subtitle text-muted">An Educational Game About Tadpoles</h6>
+						<p class="card-text">This game was developed in the Unity engine in conjunction with
+						The University of Bristol's Life Sciences department as part of the public
+						outreach associated with a research project. It is designed to teach young
+						children about the lifecycle of tadpoles and currently has over 200,000
+						downloads across iOS, Android, and Windows 10.</p>
+						<a href="https://winteriscompiling.uk/taddypole/" class="btn btn-primary" target="_blank">Play TaddyPole</a>
 					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-lg-4">
-				<div class="card mb-3">
-					<img class="card-img-top" src="images/taddypole.png" alt="TaddyPole Screenshot">
-					<div class="card-body">
-						<h5 class="card-title">TaddyPole</h5>
-						<h6 class="card-subtitle text-muted">A Game About Tadpoles</h6>
-						<p class="card-text">This group project did some stuff</p>
-						<a href="#" class="btn btn-primary">Github</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-lg-4">
-				<div class="card mb-3">
-					<img class="card-img-top" src="images/taddypole.png" alt="TaddyPole Screenshot">
-					<div class="card-body">
-						<h5 class="card-title">TaddyPole</h5>
-						<h6 class="card-subtitle text-muted">A Game About Tadpoles</h6>
-						<p class="card-text">This group project did some stuff</p>
-						<a href="#" class="btn btn-primary">Github</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-lg-4">
-				<div class="card mb-3">
-					<img class="card-img-top" src="images/taddypole.png" alt="TaddyPole Screenshot">
-					<div class="card-body">
-						<h5 class="card-title">TaddyPole</h5>
-						<h6 class="card-subtitle text-muted">A Game About Tadpoles</h6>
-						<p class="card-text">This group project did some stuff</p>
-						<a href="#" class="btn btn-primary">Github</a>
+					<div class="card-footer text-muted">
+						C#
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<h3 id="music">Music</h3>
+		<p>Having a grade 8 in guitar I've had the pleasure of playing with a number of bands
+		over the years, from small acousitic groups to large jazz orchestras. For the last
+		6 years I've been playing in an indie-pop band called The Pylons. We've played across the
+		whole country, from small empty rooms in Nottingham, to sold-out headline gigs,
+		Glastonbury festival, and a small dose of Radio 1 airplay. You can check us out at
+		<a href="https://www.facebook.com/ThePylons/" target="_blank">Facebook</a>,
+		<a href="https://www.instagram.com/thepylonsband/" target="_blank">Instagram</a>, or
+		<a href="https://open.spotify.com/artist/77Pi3DQgoKHXsvkOi8QGoM" target="_blank">Spotify</a>.</p>
+
+		<div class="row">
+			<div class="col-sm-6 image-row">
+				<img class="band-image" src="images/ladslads.jpg">
+			</div>
+			<div class="col-sm-6 image-row">
+				<img class="band-image" src="images/me_move.jpg">
+			</div>
+		</div>
 	</div>
-
-	Diss, Contextual, ProcessorSim, LockDown, Taddypole
-
-	<h3 id="music">Music</h3>
-	<h3 id="contact">Contact</h3>
 
 	<!-- More Bootstrap Stuff -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous" />
