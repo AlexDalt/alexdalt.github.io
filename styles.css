@@ -39,6 +39,7 @@ a.some-link:hover{
 .fa:hover{
 	color: white;
 	text-decoration: none;
+	opacity: 0.7;
 }
 .btn-primary{
 	background-color: black;
