@@ -6,22 +6,25 @@ html, body {
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Oswald', sans-serif;
 }
-a{
-	font-family: 'Oswald', sans-serif;
+a.some-link{
 	text-decoration: none;
 	color: black;
 	font-size: 1.17em;
 	font-weight: bold;
+	text-align: center;
 }
-a:hover{
+a.some-link:hover{
 	color: black;
 	text-decoration: none;
 	opacity: 0.7;
+	text-align: center;
+}
+.heading{
+	margin-top: 20px;
 }
 .fa{
-	padding: 20px;
 	font-size: 40px;
-	width: 50px;
+	width: 40px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
@@ -43,9 +46,11 @@ a:hover{
 	background-color: white;
 	object-fit: cover;
 }*/
+#about{
+	margin-top: 30px;
+}
 #nav-links{
 	background-color: white;
-	padding: 2px
 }
 #title-a{
 	font-size: 37.7vmin;
@@ -55,6 +60,7 @@ a:hover{
 	font-size: 25vmin;
 }
 #title-text{
+	font-family: 'Oswald', sans-serif;
 	position: absolute;
 	top:50%;
 	left: 50%;
@@ -67,7 +73,7 @@ a:hover{
 	color: white;
 	text-transform: uppercase;
 
-	background-image: url(images/me.jpg);
+	background-image: url(images/iceland.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
